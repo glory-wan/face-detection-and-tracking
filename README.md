@@ -48,6 +48,8 @@
   Your browser does not support the video tag.
 </video>
 
+<iframe width="560" height="315" src="assets/face_tracking.mp4" frameborder="0" allowfullscreen></iframe>
+
 - **`object_tracking_dlib.py`**:
   - Provides a user-interactive tracking system where the user selects an area in a video feed to be tracked.
   - Supports starting and stopping the tracking process with keyboard inputs.
