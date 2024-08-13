@@ -1,9 +1,11 @@
 # Face Detection and Tracking Project Based on Dlib
- A repository for showing simple examples of face recognition based on the Dlib library
+ This is a repository based-dilb for showing simple examples of face recognition based on the Dlib library
 
 ------
 
 ​	This project contains several Python scripts focused on face detection, landmark detection, face recognition, and tracking using the `dlib` and `cv2` libraries. Below is an overview of each script and its primary functionality.
+
+⭐ Star on GitHub — it motivates us a lot!
 
 ## Scripts Overview
 
@@ -112,4 +114,6 @@ models
 ## End
 
 If you have any questions, feel free to post them in the `issues` section or contact me directly.
-If this repository is useful to you, I hope you will Star this project
+
+If this repository is useful to you, I will appreciate you will star this repository.
+
