@@ -19,7 +19,7 @@
   - Uses OpenCV's Haar Cascade Classifier to detect faces in an image.
   - Displays the image with detected faces outlined.
 
-![Figure_1](assets\frontal_face_detector.png)
+![](assets/frontal_face_detector.png)
 
 ### 2. Face Landmarks Detection
 
