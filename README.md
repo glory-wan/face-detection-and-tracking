@@ -33,7 +33,7 @@
   - Recognizes faces in an image by detecting facial landmarks.
   - Displays the image with recognized landmarks highlighted.
 
-![Face_Landmarks ](assets\Face_Landmarks .png)
+![](assets/Face_Landmarks .png)
 
 ### 3. Face and Object Tracking
 
@@ -108,7 +108,7 @@ models
 - To use track function ( including face tracking and object tracking):
 
   ```python
-  python face_tracking/face_tracking_dlib.py		# for face tracking
+  python face_tracking/face_tracking_dlib.py	# for face tracking
   python face_tracking/object_tracking_dlib.py	# for object tracking
   ```
 
