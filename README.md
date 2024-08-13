@@ -5,7 +5,7 @@
 
 ​	This project contains several Python scripts focused on face detection, landmark detection, face recognition, and tracking using the `dlib` and `cv2` libraries. Below is an overview of each script and its primary functionality.
 
-⭐ Star on GitHub — it motivates us a lot!
+⭐ Star the repository on GitHub — it motivates me a lot!
 
 ## Scripts Overview
 
