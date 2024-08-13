@@ -14,7 +14,7 @@ def main():
     frame_height = capture.get(cv2.CAP_PROP_FRAME_HEIGHT)
     frame_fps = capture.get(cv2.CAP_PROP_FPS)
     fourcc = cv2.VideoWriter_fourcc(*"XVID")
-    output = cv2.VideoWriter("record.avi", fourcc, int(frame_fps), (int(frame_width), int(frame_height)), True)
+    output = cv2.VideoWriter("../result/face_tracking.avi", fourcc, int(frame_fps), (int(frame_width), int(frame_height)), True)
 
     while True:
         ret, frame = capture.read()

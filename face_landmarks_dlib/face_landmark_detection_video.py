@@ -6,7 +6,7 @@ import time
 def main():
     capture = cv2.VideoCapture(0)
     detector = dlib.get_frontal_face_detector()
-    predictor = dlib.shape_predictor("../model/shape_predictor_68_face_landmarks.dat")
+    predictor = dlib.shape_predictor("../models/shape_predictor_68_face_landmarks.dat")
 
     cv2.namedWindow("face detection", cv2.WINDOW_NORMAL)
     cv2.resizeWindow("face detection", 2 * 640, 2 * 480)  # 放大窗口尺寸
@@ -15,7 +15,7 @@ def main():
     frame_height = capture.get(cv2.CAP_PROP_FRAME_HEIGHT)
     frame_fps = capture.get(cv2.CAP_PROP_FPS)
     videoFormat = cv2.VideoWriter_fourcc(*"XVID")
-    output = cv2.VideoWriter("record.avi", videoFormat, int(frame_fps), (int(frame_width), int(frame_height)), True)
+    output = cv2.VideoWriter("../result/landmarks.avi", videoFormat, int(frame_fps), (int(frame_width), int(frame_height)), True)
 
     while capture.isOpened():
         ret, frame = capture.read()  # 第一个是布尔值ret，表示是否成功读取了帧，第二个是实际的帧数据frame

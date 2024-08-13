@@ -5,12 +5,12 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    image = cv2.imread("data02.jpg")
+    image = cv2.imread("data01.jpg")
     detector = dlib.get_frontal_face_detector()
 
     # http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
     # http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2
-    predictor = dlib.shape_predictor("../model/shape_predictor_68_face_landmarks.dat")
+    predictor = dlib.shape_predictor("../models/shape_predictor_68_face_landmarks.dat")
 
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     faces = detector(gray, 1)
@@ -27,6 +27,7 @@ def main():
     cv2.imshow("face detection ", image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+    cv2.imwrite('../result/landmarks_68.jpg', image)
 
 
 if __name__ == '__main__':

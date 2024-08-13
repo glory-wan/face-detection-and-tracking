@@ -23,7 +23,7 @@ def main():
 
     img_result = plot_rectangle(img.copy(), detection_result)
     show_image(img_result, "face detection")
-    cv2.imwrite('reslut.jpg', img_result)
+    cv2.imwrite('../result/frontal_face_detector.jpg', img_result)
 
 
 if __name__ == '__main__':

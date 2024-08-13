@@ -14,7 +14,7 @@ def show_info(frame, tracking_state):
 
 
 def main():
-    capture = cv2.VideoCapture(0)
+    capture = cv2.VideoCapture(r"D:\temp\777.mp4")
     detector = dlib.get_frontal_face_detector()
     tracker = dlib.correlation_tracker()
 
@@ -24,14 +24,15 @@ def main():
     frame_height = capture.get(cv2.CAP_PROP_FRAME_HEIGHT)
     frame_fps = capture.get(cv2.CAP_PROP_FPS)
     fourcc = cv2.VideoWriter_fourcc(*"XVID")
-    output = cv2.VideoWriter("record.avi", fourcc, int(frame_fps), (int(frame_width), int(frame_height)), True)
+    output = cv2.VideoWriter("../result/face_tracking.avi", fourcc, int(frame_fps), (int(frame_width), int(frame_height)), True)
 
     while True:
         start_time = time.time()  # 记录起始时间
         ret, frame = capture.read()
 
         cv2.namedWindow("face tracking", cv2.WINDOW_NORMAL)
-        cv2.resizeWindow("face tracking", 2 * 640, 2 * 480)  # 调整窗口尺寸
+        cv2.resizeWindow("face tracking", 1080, 1920)
+        # cv2.resizeWindow("face tracking", 2 * 640, 2 * 480)
 
         if tracking_state is False:
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)

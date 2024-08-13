@@ -21,11 +21,12 @@ def main():
     img = cv2.imread("data03.png")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    face_alt2 = cv2.CascadeClassifier("../model/haarcascade_frontalface_default.xml")
+    face_alt2 = cv2.CascadeClassifier("../models/haarcascade_frontalface_default.xml")
     face_alt2_detection = face_alt2.detectMultiScale(gray)
     face_alt2_result = plot_rectangle(img.copy(), face_alt2_detection)
 
     show_image(face_alt2_result, "face detection", 1)
+    cv2.imwrite('../result/CascadeClassifier.jpg', face_alt2_result)
 
 
 if __name__ == '__main__':

@@ -34,6 +34,7 @@ capture = cv2.VideoCapture(0)
 
 cv2.namedWindow("Object Tracking", cv2.WINDOW_NORMAL)  # 创建一个窗口， cv2.WINDOW_NORMAL 窗口大小可调整
 cv2.resizeWindow("Object Tracking", 1280, 960)  # 调整窗口尺寸
+# cv2.resizeWindow("Object Tracking", 1080, 1920)
 cv2.setMouseCallback("Object Tracking", mouse_event_handler)
 
 tracker = dlib.correlation_tracker()
