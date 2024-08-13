@@ -33,7 +33,7 @@
   - Recognizes faces in an image by detecting facial landmarks.
   - Displays the image with recognized landmarks highlighted.
 
-![](assets/Face_Landmarks .png)
+![](assets/Face_Landmarks.png)
 
 ### 3. Face and Object Tracking
 
