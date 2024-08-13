@@ -43,11 +43,6 @@
 - **`face_tracking_info.py`**:
   - Similar to `face_tracking_dlib.py`, but includes additional on-screen information about tracking status.
 
-<video width="640" height="360" controls autoplay>
-  <source src="assets/face_tracking.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 https://private-user-images.githubusercontent.com/98147662/357582543-91b5c11e-f883-4397-848e-0427b9f6ff5d.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM1ODU4NTcsIm5iZiI6MTcyMzU4NTU1NywicGF0aCI6Ii85ODE0NzY2Mi8zNTc1ODI1NDMtOTFiNWMxMWUtZjg4My00Mzk3LTg0OGUtMDQyN2I5ZjZmZjVkLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODEzVDIxNDU1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFhZTEzYmRjOTQ1MTY3ZWM1OTcxOThlYWNkYjFlNDU4ZTVjMmRlNDI4YTQxY2Y1MWJhYjdjYzI3YzcwYTc2MTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7_W3njxK86rhPZvE4BvgIB9mUykvTVtYwa3vytf4DkI
 
 - **`object_tracking_dlib.py`**:
@@ -114,4 +109,7 @@ models
   python face_tracking/object_tracking_dlib.py	# for object tracking
   ```
 
-  
+## End
+
+If you have any questions, feel free to post them in the `issues` section or contact me directly.
+If this repository is useful to you, I hope you will Star this project
