@@ -44,7 +44,7 @@
   - Similar to `face_tracking_dlib.py`, but includes additional on-screen information about tracking status.
 
 <video width="640" height="360" controls autoplay>
-  <source src="assets\face_tracking.mp4" type="video/mp4">
+  <source src="assets/face_tracking.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
