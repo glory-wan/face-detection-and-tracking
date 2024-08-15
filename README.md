@@ -111,7 +111,7 @@ models
   python face_tracking/object_tracking_dlib.py	# for object tracking
   ```
 
-## End
+## In the End
 
 If you have any questions, feel free to post them in the `issues` section or contact me directly.
 
