@@ -113,7 +113,7 @@ models
 
 ## In the End
 
-If you have any questions, feel free to post them in the `issues` section or contact me directly.
+If you have any questions, feel free to post them in the [issues](https://github.com/glory-wan/face-detection-and-tracking/issues) section or contact me directly.
 
 If this repository is useful to you, I will appreciate you will star this repository.
 
