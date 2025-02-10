@@ -111,9 +111,11 @@ models
   python face_tracking/object_tracking_dlib.py	# for object tracking
   ```
 
-## In the End
+## Contact  Me
 
-If you have any questions, feel free to post them in the [issues](https://github.com/glory-wan/face-detection-and-tracking/issues) section or contact me directly.
+If you have any question or suggestion, please feel free to contact us by [raising an issue](https://github.com/glory-wan/face-detection-and-tracking/issues) or sending an email to [glory947446@gmail.com](mailto:glory947446@gmail.com).
+
+## In the End
 
 If this repository is useful to you, I will appreciate you will star this repository.
 
