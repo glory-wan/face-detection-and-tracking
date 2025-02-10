@@ -15,7 +15,7 @@ def plot_rectangle(image, faces):
 
 
 def main():
-    img = cv2.imread("data01.jpg")
+    img = cv2.imread("../input_example/data01.jpg")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     detector = dlib.get_frontal_face_detector()

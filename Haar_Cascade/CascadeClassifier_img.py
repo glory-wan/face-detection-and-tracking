@@ -18,7 +18,7 @@ def plot_rectangle(image, faces):
 
 
 def main():
-    img = cv2.imread("data03.png")
+    img = cv2.imread("../input_example/data01.jpg")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     face_alt2 = cv2.CascadeClassifier("../models/haarcascade_frontalface_default.xml")

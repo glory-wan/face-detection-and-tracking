@@ -17,7 +17,7 @@ def show_landmarks(image, landmarks):
 
 
 def main():
-    img = cv2.imread("../face_landmarks_recognition/data01.jpg")
+    img = cv2.imread("../input_example/data01.jpg")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # 'large' is for landmark_68, small is for landmark_5

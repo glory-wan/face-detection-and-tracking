@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    image = cv2.imread("data01.jpg")
+    image = cv2.imread("../input_example/data01.jpg")
     detector = dlib.get_frontal_face_detector()
 
     # http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2

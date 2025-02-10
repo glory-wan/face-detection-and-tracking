@@ -25,8 +25,8 @@ def show_img(image1, image2, image3, num):
 
 
 if __name__ == '__main__':
-    img1 = cv2.imread('face_landmarks_dlib/data01.jpg')
-    img2 = cv2.imread('face_landmarks_dlib/result_5.jpg')
-    img3 = cv2.imread('face_landmarks_dlib/result_68.jpg')
+    img1 = cv2.imread('input_example/data01.jpg')
+    img2 = cv2.imread('result/result_5.jpg')
+    img3 = cv2.imread('result/result_68.jpg')
 
     show_img(img1, img2, img3, num=3)

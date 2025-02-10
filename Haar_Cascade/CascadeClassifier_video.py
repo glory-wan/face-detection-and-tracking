@@ -11,7 +11,7 @@ while True:
     for (x, y, w, h) in eyes:
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
-    cv2.imshow('img', img)
+    cv2.imshow('input_example', img)
 
     key = cv2.waitKey(1) & 0xFF
     if key == ord("\x1b"):
